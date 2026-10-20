@@ -1,4 +1,4 @@
-task.delay(900, function()
+task.delay(60 * 5, function()
   game.Players.LocalPlayer:Kick()
 end)
 
