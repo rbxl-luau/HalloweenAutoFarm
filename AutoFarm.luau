@@ -1,4 +1,4 @@
-local JOPA_GOVNO = 60 * 2
+local JOPA_GOVNO = 60 * 3
 
 repeat
 	task.wait()
