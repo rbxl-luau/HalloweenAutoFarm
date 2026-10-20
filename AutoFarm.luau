@@ -80,6 +80,7 @@ task.spawn(function()
 		end
 	end
 end)
+game:GetService("RunService"):Set3dRenderingEnabled(false)
 v1.DescendantAdded:Connect(function(v6)
 	if v6.Name == "ErrorPrompt" then
 		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId)
